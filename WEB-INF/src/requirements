@@ -1,0 +1,7 @@
+REQUIREMENTS
+1. Domain information stored in the database (recommended MySQL).
+2. Implement the functionality offered in the document of a particular task.
+3. Classes and methods must have names reflecting their functionality and must be properly structured in packages.
+4. Use logging system (Log4j or equivalent).
+5. The code should contain comments.
+6. Code should contains Unit tests.

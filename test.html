@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <form method='GET' action='/library/test.html'>
+            <input type='text' id='search-request' name='search-request'>
+            <input type='submit' id='search-button' name='search-button'
+                   value='Search'><br>
+            <input type='checkbox' id='by-author' name='by-author'>
+            <label for='by-author'>Search by author</label>
+            <input type='checkbox' id='by-name' name='by-name'>
+            <label for='by-name'>Search by name</label>
+            <input type='checkbox' id='by-genre' name='by-genre'>
+            <label for='by-genre'>Search by genre</label>
+        </form>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Available</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Harry Potter and the Chamber of Secrets</td>
+                <td>J. K. Rowling</td>
+                <td>Fantasy</td>
+                <td>5</td>
+                <td>
+                <form method='GET' action='/library/test.html'>
+                    <input type='submit' id='rent-button' name='rent-button'
+                           value='Rent'>
+                </form>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Harry Potter and the Chamber of Secrets</td>
+                <td>J. K. Rowling</td>
+                <td>Fantasy</td>
+                <td>5</td>
+            </tr>
+        </table>
+    </body>
+</html>

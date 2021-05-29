@@ -1,0 +1,16 @@
+BOOKS
+-----
+Id, Name, Author, Genre, Available
+
+
+RENT_RECORDS
+------------
+Id, Book_id, User_id, Rented_on, Due_to
+
+USERS
+------------
+Id, Username, Password, Role, Name, Rented_books
+
+ROLES
+------------
+Id, Role_name

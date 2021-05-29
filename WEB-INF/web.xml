@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+   <servlet>
+      <servlet-name>LoginServlet</servlet-name>
+      <servlet-class>webapp.LoginServlet</servlet-class>
+   </servlet>
+
+   <servlet>
+      <servlet-name>MainPageServlet</servlet-name>
+      <servlet-class>webapp.MainPageServlet</servlet-class>
+   </servlet>
+
+   <servlet>
+      <servlet-name>RentedBooksServlet</servlet-name>
+      <servlet-class>webapp.RentedBooksServlet</servlet-class>
+   </servlet>
+
+   <servlet>
+      <servlet-name>UsersPageServlet</servlet-name>
+      <servlet-class>webapp.UsersPageServlet</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>LoginServlet</servlet-name>
+      <url-pattern>/login</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>MainPageServlet</servlet-name>
+      <url-pattern>/main</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>RentedBooksServlet</servlet-name>
+      <url-pattern>/rented</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>UsersPageServlet</servlet-name>
+      <url-pattern>/users</url-pattern>
+   </servlet-mapping>
+
+</web-app>

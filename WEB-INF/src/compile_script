@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "entities" && (javac -d ../classes/ entities/*.java) && \
+echo "connection manager" && (javac -d ../classes/ session/ConnectionManager.java -cp "../classes/:/usr/share/tomcat9/lib/*") && \
+echo "dao" && (javac -d ../classes/ dao/*.java -cp ../classes/) && \
+echo "session" && (javac -d ../classes/ session/*.java -cp ../classes/) && \
+echo "webapp" && (javac -d ../classes/ webapp/*.java -cp "../classes/:/usr/share/tomcat9/lib/*")
+# echo "main" && javac Main.java -cp session/

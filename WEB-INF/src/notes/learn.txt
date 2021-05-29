@@ -1,0 +1,9 @@
+DAO pattern
+jdbc mapper
+singletone pattern
+servlets
+Spring framework
+
+Reflection
+
+dzianis.shaplyka@gmail.com
